@@ -1,0 +1,8 @@
+gedit:Create and edit text files with a text editor: 
+git:Wok with aa code repository
+Steps of git-push: git add,git commit -m ,git push
+cd: Go home
+cd <directory name>: Change directory
+ls:list
+cat: just for reading file
+
