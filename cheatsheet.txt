@@ -5,4 +5,5 @@ cd: Go home
 cd <directory name>: Change directory
 ls:list
 cat: just for reading file
+pwd: view all the folders
 
