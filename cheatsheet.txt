@@ -6,4 +6,13 @@ cd <directory name>: Change directory
 ls:list
 cat: just for reading file
 pwd: view all the folders
+print
+str
+int:integers
+float: decimal
+len:find the length of smt
+round:round numbers
+#:comments
+dir(__builtins__) : help
+help(str): help
 
