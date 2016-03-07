@@ -31,7 +31,7 @@
 #	1: programming languages
 #	2: compiled
 #	3: interpreted
-#
+#1
 
 #Part 2: Programming (25 points)
 #Write a program that asks the user for the areas of 3 circles.
@@ -56,9 +56,9 @@ def float(a, r):
 def output():
 	out = """
 circle	diameter
-c1:		{}
-c2:		{}
-c3:		{}
+c1:	{}
+c2:	{}
+c3:	{}
 total:	{}
 """. format()
 	return out
