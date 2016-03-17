@@ -1,26 +1,31 @@
-def float():
-	if c >= a
-	if b >= c
+import math
+import random
+
+
+def float(minimum):
+	
+
+
+
+
+def float(minimum, maximum, number, guess, number):
+	if number >= minimum
 	return True 
- else:
-        strength = random.randint(0,10)
-    return strength * random.random()
+	if maximum >= number
+	return True 
+	number1 = abs(number-guess)
 
 
-def output(a, b, c):	
+def output():	
 	return """
 The target was {}.
 Your guess was {}.
 That's under by  {}.
-""".format
+""".format(number, guess, number1)
 	
 def main(number):
 	raw_input("What is the minimum number?: ")
 	raw_input("What is the maximum number?: ")
-	raw_input("I'm thinking of a number from " "to ")
+	raw_input("I'm thinking of a number from " minimum "to " maximum)
 	raw_input("What do you think it is?: ")
 
-out = output(a, b, c)
-print out
-
-main(number):
