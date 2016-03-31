@@ -50,13 +50,13 @@
 
 def float(A, B, C):
 	if A > B and C:
-		return float(A) "The largest number was {}".
+		return A
 	
 	elif B > A and C:
-		return float(B) "The largest number was {}".
+		return B
 
 	elif C > B and A: 
-		return float(C) "The largest number was {}".
+		return C
 
 	else:
 		return "You must type different numbers."
