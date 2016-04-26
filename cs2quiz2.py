@@ -3,6 +3,7 @@
 #a) a == a
 #b) 3 > 2
 #c) True != False
+# +3
 #
 #2) What does 'return' do?
 # It takes the function and gives a result.
@@ -19,8 +20,8 @@
 #PART 2: Reading
 #Type the values for 9 of the 12 of the variables below.
 #
-#problem1_a) (6, 2)
-#problem1_b) (-3)
+#problem1_a) (36)
+#problem1_b) (3)
 #problem1_c) (0)
 #problem1_d) (-5)
 
@@ -33,7 +34,7 @@
 #problem3_b)
 #problem3_c)
 #problem3_d)
-#(1, 0.5) or b
+#0.5
 #problem4_a)
 #problem4_b)
 #problem4_c)
