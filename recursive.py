@@ -1,28 +1,17 @@
-#def countdown(n):
-#	if n >= 100:
-#		print "Blastoff!"
-#	else:
-#		print n
-#		countdown(n-1)
-
-
-#def countup(n):
-#	if n >= 100:
-#		print "Blastoff!"
-#	else:
-#		print n
-#		countup(n+1)
-	
-def adder(running_total = 0):
-	print "The running total is {}".format(running_total)
-	n0 = raw_input("next number: ")
-	if n0 == "":
-		print "The sum is {}".format(running_total)
+def countdown(n):
+	if n <= 0:
+		print "Blastoff!"
 	else:
-		running_total += float(n0)
+		print n
+		countdown(n-1)
 
-		adder(running_total)
 
+def countup(n):
+	if n >= 0:
+		print "Blastoff!"
+	else:
+		print n
+		countup(n+1)
 
 def countup_from_to(start, stop):
 	if start >= stop:
@@ -37,5 +26,17 @@ def countdown_from_to(start, stop):
 	else:
 		print start
 		countdown(start-1)
+
+def adder(total):
+	print "The running total is {}".format(running_total)
+	n = raw_input("next number: ")
+	if n == "":
+		print "bye"
+	else:
+		running_total += float(n0)
+		adder(running_total)
+
+def biggest(big):
+	 
 
 def main():

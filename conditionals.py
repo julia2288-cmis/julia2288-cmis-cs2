@@ -9,16 +9,12 @@ def numbers(A, B, C):
 	B == float(A+1)
 	C == float(B+1)	
 
-
-
 def adder():
-n =6
+
 def numbers(playernumber,computernumber):	
 	playernumber ==  float(A, B, C)
 	if playnumber == float
 	 
-defe
-	
 
 def main(numbers):
 	raw_input("How many numbers you want to type?")
