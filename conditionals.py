@@ -26,6 +26,7 @@ You typed {},{},{}.
 My number is {},{},{}.
 """.format(A, B, C)
 
-
-
+#def qestions():
+#	raw_input("How many numbers you want to type?")
+#	
 
