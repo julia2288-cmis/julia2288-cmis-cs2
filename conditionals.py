@@ -1,32 +1,28 @@
+def rules():
+	print "You can call 1~3 numbers at your turn, and so does the computer. Whoever calls the number 31 lost."
+
 def numbers(playernumber,computernumber):
 	if playernumber == float(31):
 		print "You lost!"
 	elif computernumber == float(31):
 		print "You win!"
 
-def numbers(A, B, C):
-	A == float(A)
-	B == float(A+1)
-	C == float(B+1)	
+def starts(turn):
+	starts(turn) = raw_input("Who starts first? player/computer")
+	if starts(turn) = "player":
+		print raw_input("Type numbers")
+	else:
+		print random.randint(1,3)
 
-def adder():
+def numbers():
+	numbers() = raw_input("How many numbers you want to type? (1~3)")
+	n = raw_input("What is your number?")
+	if numbers() = 1 
+		return n = numbers()
+		print random.randint(1,3)
 
-def numbers(playernumber,computernumber):	
-	playernumber ==  float(A, B, C)
-	if playnumber == float
-	 
 
-def main(numbers):
-	raw_input("How many numbers you want to type?")
-	raw_input
-	raw_input
-	
-	output = """
-You typed {},{},{}.
-My number is {},{},{}.
-""".format(A, B, C)
+def main():
 
-#def qestions():
-#	raw_input("How many numbers you want to type?")
-#	
+main()
 
