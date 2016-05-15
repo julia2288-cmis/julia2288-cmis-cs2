@@ -16,15 +16,15 @@ def steps():
 def traps1():
 	n = steps()
 	if n == float(6,13,39,69)
-		print "You stepped on a snake and snake bite you. You will start from the beginning again."
+		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
 		return steps()
 
 
 def traps2():
 	n = steps()
 	if n == float(9,26,73,81)
-		print "You 
-		return steps()
+		print "You stepped on a banana peel. You will slip 3 steps back." 
+		return sub(n-3)
 
 
 def traps3():
