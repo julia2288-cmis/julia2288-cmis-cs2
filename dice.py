@@ -32,3 +32,9 @@ def traps3():
 	if n == float(28,43,96)
 		print "You found an escalator infront of you. You will skip 4 steps to the front."
 		return abs(float(add(n+4)))
+
+def main():
+	n = steps()
+	if n == float(100)
+		print "You won!"
+main()
