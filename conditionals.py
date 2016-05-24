@@ -8,7 +8,9 @@ def steps():
 	dice = raw_input("Click enter to roll the dice.")	
 	if dice == "":
 		print random.randint(1,6) 
-		n = dice +
+	n = random.randint
+	n += str(dice) 	
+	return n
 	print "You are in number {}.".format(n)
 	
 
@@ -16,8 +18,6 @@ def next(c):
 	c = raw_input("Type enter to continue: ")	
 	if c == "":
 		return steps(dice) 
-
-
 
 def traps():
 	n = steps()
@@ -39,4 +39,5 @@ def traps():
  
 def main():
 	steps()
+	n = 0
 main()
