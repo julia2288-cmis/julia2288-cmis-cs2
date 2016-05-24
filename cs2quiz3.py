@@ -49,13 +49,14 @@
 
 def average():
 	n = odd()
+	n = raw_input("Next number: ")
 	if n == abs(float(odd))
 		return
 	if n == "":
 		return average
 
 def odd():
-	n = raw_input("Next number: ")
+	
 	if n/2 == false 
 	else: 
 		abs(float(odd))
