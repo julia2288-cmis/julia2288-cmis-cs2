@@ -12,7 +12,17 @@
 #countFrom2(2, 20)
 
 
-def addOdds():	
-	if m > 0:
-	
-	elif m < 0:
+#def addOdds():	
+#	if m > 0:
+#	elif m < 0:
+		
+
+def grid(w,h):
+	out = ""
+	x = 0	
+	while x < w:
+		out += "."
+		x += 1
+	return out
+
+print grid(10,5)
