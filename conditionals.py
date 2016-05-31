@@ -6,20 +6,36 @@ def rules():
 
 def steps(total):	
 	dice = raw_input("Click enter to roll the dice.")	
-
 	if dice == "":
 		print
-		n = random.randint(1,6)
-		total += n
-		print "You are in number {}.".format(total)	
+		n = random.randint(1,6)	
+		print n
+		total += int(n)
+		out = """
+"You are in number {}.
+""".format(total)	
+		print out
+		return total
+
+def traps():
+	total= steps(total)
+	if total == float(1):
+		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
 		return steps(total)
- 
 
+	if total == float(5):
+		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
+		return steps(total)
 
-def main():
-	total = steps(0)
-	
 	if total == float(6):
+		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
+		return steps(total)
+
+	if total == float(52):
+		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
+		return steps(total)
+
+	if total == float(84):
 		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
 		return steps(total)
 
@@ -31,4 +47,35 @@ def main():
 		print "You found an escalator in front of you. You will skip 4 steps to the front."
 		return abs(float(add(total+4)))
 	
+	elif total == float(8):
+		print "You found an escalator in front of you. You will skip 4 steps to the front."
+		return abs(float(add(total+4)))
+	
+	elif total == float(78):
+		print "You found an escalator in front of you. You will skip 4 steps to the front."
+		return abs(float(add(total+4)))
+	
+	elif total == float(38):
+		print "You found an escalator in front of you. You will skip 4 steps to the front."
+		return abs(float(add(total+4)))
+	
+	elif total == float(32):
+		print "You found an escalator in front of you. You will skip 4 steps to the front."
+		return abs(float(add(total+4)))
+	
+
+def main():
+	total = steps(0)
+	traps()
+	if total == 50:
+		print "Half way!"
+	
+	elif total >= 90:
+		print "Almost there!"
+
+	else:
+		total >= 100
+		return steps(total)
+
 main()
+
