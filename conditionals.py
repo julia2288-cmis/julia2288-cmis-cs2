@@ -15,7 +15,8 @@ def steps(total):
 """.format(total)	
 		print out
 		return total
-	
+
+
 def traps():
 	total = steps(0)
 
@@ -24,27 +25,31 @@ def traps():
 		return steps(0)
 		return steps(total)
 
-	if total == float(5):
+
+	elif total == float(5):
+		print "You found an escalator in front of you. You will skip 4 steps to the front."
+		return abs(float(total+4))
+		return steps(total)
+
+	elif total == float(6):
+		print "You found an U.F.O, you will transfer to a random place."
+		return steps(random.random*10)
+		return steps(total)
+
+	elif total == float(52):
 		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
 		return steps(0)
 		return steps(total)
 
-	if total == float(6):
+	elif total == float(84):
 		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
-		return steps(0)
+		return steps(0) 
 		return steps(total)
 
-	if total == float(52):
-		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
-		return steps(0)
-		return steps(total)
-
-	if total == float(84):
-		print "You stepped on a snake and the snake bite you. You will start from the beginning again."
-		return steps(0)
-		return steps(total)
-
-	elif total == float(3):
+	
+def traps2():
+	
+	if total == float(3):
 		print "You stepped on a banana peel. You will slip 3 steps back." 
 		return abs(float(total-3))
 		return steps(total)
@@ -77,18 +82,24 @@ def traps():
 	else:
 		return steps(total)
 
+
+def end(total):
+	steps(0)
+	if total >= 100 :
+		return True
+	else:
+		return False
+		
 def main():
-	total = steps(0)
 	traps()
+	total = steps(0)
+	
 	if total == 50:
 		print "Half way!"
 	
-	elif total >= 90:
+	else: 
+		total == 90 or total > 90
 		print "Almost there!"
-
-	else:
-		total >= 100
-		return steps(total)
 
 main()
 
